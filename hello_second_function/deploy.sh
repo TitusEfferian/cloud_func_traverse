@@ -1,0 +1,1 @@
+gcloud functions deploy hello_second_function --region asia-southeast2 --memory=128MB --entry-point helloWorld --runtime nodejs10 --trigger-http --allow-unauthenticated
